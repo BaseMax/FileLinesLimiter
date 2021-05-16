@@ -6,7 +6,7 @@ A tiny go program to limit lines of a input file and generate result in a new fi
 
 ```
 $ go run limiter.go
-limiter.txt
+input.txt
 5
 7
 ```
