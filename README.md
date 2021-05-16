@@ -11,4 +11,6 @@ input.txt
 7
 ```
 
+Finally, `limiter.out.txt` file will create.
+
 © Copyright 2021, Max Base
