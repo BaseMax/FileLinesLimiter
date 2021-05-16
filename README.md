@@ -13,4 +13,10 @@ input.txt
 
 Finally, `limiter.out.txt` file will create.
 
+### How build for Windows in Linux?
+
+```
+GOARCH=amd64 GOOS=windows go build
+```
+
 © Copyright 2021, Max Base
