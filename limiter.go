@@ -8,6 +8,7 @@ import (
     "fmt"
     "log"
     "os"
+    "bufio"
 )
 
 func readFileLines(path string) ([]string, error) {
@@ -26,7 +27,9 @@ func readFileLines(path string) ([]string, error) {
 }
 
 func myError() {
-	// TODO: exit and wait to press a key (windows)
+    fmt.Print("Press 'Enter' to continue...")
+    bufio.NewReader(os.Stdin).ReadBytes('\n')
+    os.Exit(1)
 }
 
 func main() {
