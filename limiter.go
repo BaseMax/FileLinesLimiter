@@ -8,7 +8,6 @@ import (
     "fmt"
     "log"
     "os"
-    "bufio"
 )
 
 func readFileLines(path string) ([]string, error) {
