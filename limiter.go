@@ -85,4 +85,8 @@ func main() {
     file.Close()
 
     fmt.Println("Done.")
+
+    fmt.Print("Press 'Enter' to continue...")
+    bufio.NewReader(os.Stdin).ReadBytes('\n')
+    os.Exit(0)
 }
